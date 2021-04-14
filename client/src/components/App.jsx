@@ -1,10 +1,14 @@
 import React from 'react';
+import AppNavBar from './AppNavBar';
+import ShoppingList from "./ShoppingList";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return(
         <div>
-            <h1>Helllo</h1>
+            <AppNavBar />
+            <ShoppingList />
         </div>
     );
 }
